@@ -26,6 +26,87 @@ insert into books (author, title, priceOld, price) values ('Bette-ann Askem', 'e
 insert into books (author, title, priceOld, price) values ('Dom Robuchon', 'facilitate efficient eyeballs', '$232.30', '$131.48');
 --AUTHORS
 insert into authors (firstname, secondname) values ('Абгарян', 'Наринэ');
-insert into authors (firstname, secondname) values ('Байбаков', 'Иван');
-insert into authors (firstname, secondname) values ('Вайн', 'Барбара');
+insert into authors (firstname, secondname) values ('Абдуллаев', 'Чингиз');
 
+insert into authors (firstname, secondname) values ('Байбаков', 'Иван');
+insert into authors (firstname, secondname) values ('Байер', 'Уильям');
+
+insert into authors (firstname, secondname) values ('Вайн', 'Барбара');
+insert into authors (firstname, secondname) values ('Вайнштейн', 'Стелла');
+
+insert into authors (firstname, secondname) values ('Габсер', 'Стивен');
+insert into authors (firstname, secondname) values ('Гаврилова', 'Анна');
+
+insert into authors (firstname, secondname) values ('Далчер', 'Кристина');
+insert into authors (firstname, secondname) values ('Даль', 'Арне');
+
+insert into authors (firstname, secondname) values ('Евгенидис', 'Джеффри');
+insert into authors (firstname, secondname) values ('Евглевский', 'Яков');
+
+insert into authors (firstname, secondname) values ('Жаворски', 'Жан-Филипп');
+insert into authors (firstname, secondname) values ('Жвалевский', 'Андрей');
+
+insert into authors (firstname, secondname) values ('Забелин', 'Максим');
+insert into authors (firstname, secondname) values ('Завойчинская', 'Милена');
+
+insert into authors (firstname, secondname) values ('Ибрагим', 'Зак');
+insert into authors (firstname, secondname) values ('Иванов', 'Алексей');
+
+insert into authors (firstname, secondname) values ('Йап', 'Фелисия');
+insert into authors (firstname, secondname) values ('Йохансен', 'Эрика');
+
+insert into authors (firstname, secondname) values ('Каблукова', 'Екатерина');
+insert into authors (firstname, secondname) values ('Кабони', 'Кристина');
+
+insert into authors (firstname, secondname) values ('Лав', 'Фрэнки');
+insert into authors (firstname, secondname) values ('Лаваль', 'Виктор');
+
+insert into authors (firstname, secondname) values ('Маас', 'Сара Дж.');
+insert into authors (firstname, secondname) values ('Магари', 'Дрю');
+
+insert into authors (firstname, secondname) values ('Набоков', 'Владимир');
+insert into authors (firstname, secondname) values ('Набокова', 'Ника');
+
+insert into authors (firstname, secondname) values ('Обрист', 'Ханс Ульрих');
+insert into authors (firstname, secondname) values ('Обух', 'Арина');
+
+insert into authors (firstname, secondname) values ('Пандазопулос', 'Изабель');
+insert into authors (firstname, secondname) values ('Павлищева', 'Наталья');
+
+insert into authors (firstname, secondname) values ('Р.Так', 'Джеймс');
+insert into authors (firstname, secondname) values ('Радов', 'Егор');
+
+insert into authors (firstname, secondname) values ('Сабаев', 'Тимур');
+insert into authors (firstname, secondname) values ('Сабо', 'Магда');
+
+insert into authors (firstname, secondname) values ('Тайлер', 'Энн');
+insert into authors (firstname, secondname) values ('Таками', 'Косюн');
+
+insert into authors (firstname, secondname) values ('Уайт', 'Алекс');
+insert into authors (firstname, secondname) values ('Уайт', 'Карен');
+
+insert into authors (firstname, secondname) values ('Фавильи', 'Елена');
+insert into authors (firstname, secondname) values ('Фархин', 'Мирза Фатима');
+
+insert into authors (firstname, secondname) values ('Хаас', 'Ричард');
+insert into authors (firstname, secondname) values ('Хайнлайн', 'Роберт');
+
+insert into authors (firstname, secondname) values ('Цимерман', 'Джессика');
+insert into authors (firstname, secondname) values ('Цинкк', 'Валия');
+
+insert into authors (firstname, secondname) values ('Чайковский', 'Барбара');
+insert into authors (firstname, secondname) values ('Чайлд', 'Линкольн');
+
+insert into authors (firstname, secondname) values ('Шабанов', 'Сергей');
+insert into authors (firstname, secondname) values ('Шайсултанов', 'Ильяс');
+
+insert into authors (firstname, secondname) values ('Щеглова', 'Ирина');
+insert into authors (firstname, secondname) values ('Щепетнов', 'Евгений');
+
+insert into authors (firstname, secondname) values ('Эванс', 'Хэрриет');
+insert into authors (firstname, secondname) values ('Эвенсон', 'Брайан');
+
+insert into authors (firstname, secondname) values ('Юнгстедт', 'Мари');
+
+insert into authors (firstname, secondname) values ('Яковлева', 'Алена');
+insert into authors (firstname, secondname) values ('Якушевская', 'Влада');
