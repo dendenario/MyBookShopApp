@@ -1,5 +1,6 @@
 package com.example.MyBookShopApp.data;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
@@ -12,6 +13,7 @@ import java.util.List;
 public class AuthorService {
 
     private JdbcTemplate jdbcTemplate;
+    private final Logger logger = Logger.getLogger(AuthorService.class);
 
     @Autowired
     public AuthorService(JdbcTemplate jdbcTemplate) {
@@ -26,6 +28,7 @@ public class AuthorService {
             author.setSecondName(rs.getString("secondname"));
             return author;
         });
+        logger.info("Data loaded from database");
         return new ArrayList<>(authorsList);
     }
 }
