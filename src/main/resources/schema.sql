@@ -13,7 +13,8 @@ DROP TABLE IF EXISTS authors;
 
 CREATE TABLE authors
 (
-    id                  INT AUTO_INCREMENT PRIMARY KEY,
+    id       INT AUTO_INCREMENT PRIMARY KEY,
     firstname           VARCHAR(250) NOT NULL,
-    secondname          VARCHAR(250) NOT NULL
+    secondname          VARCHAR(250) NOT NULL,
+    UNIQUE (firstname, secondname)
 );

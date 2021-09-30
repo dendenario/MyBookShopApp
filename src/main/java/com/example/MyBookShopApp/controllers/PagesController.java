@@ -10,7 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.List;
+import java.util.*;
 
 @Controller
 @RequestMapping("/bookshop")
@@ -42,7 +42,22 @@ public class PagesController {
     @GetMapping("/authors")
     public String authorsPage(Model model) {
         logger.info("Got authors page");
-        model.addAttribute("authorData", authorService.getAuthorsData());
+        List<Author> authorsList = authorService.getAuthorsData();
+        Map<String, List<Author>> firstLetterToAuthorsMap = new HashMap<>();
+        for (Author author : authorsList) {
+            String firstLetter = author.getFirstName().toUpperCase().substring(0, 1);
+            List<Author> authorsOnLetterList;
+            if (!firstLetterToAuthorsMap.containsKey(firstLetter)) {
+                authorsOnLetterList = new ArrayList<>();
+                authorsOnLetterList.add(author);
+            } else {
+                authorsOnLetterList = firstLetterToAuthorsMap.get(firstLetter);
+                authorsOnLetterList.add(author);
+            }
+            firstLetterToAuthorsMap.put(firstLetter, authorsOnLetterList);
+        }
+        model.addAttribute("letterData", firstLetterToAuthorsMap.keySet());
+        model.addAttribute("authorLetterMap", firstLetterToAuthorsMap);
         return "authors/index";
     }
 }
